@@ -20,7 +20,7 @@ source $YGN/.bash_profile
 go version
 
 --------------------------------------
-cd $NGN
+cd $YGN
 rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
