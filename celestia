@@ -44,7 +44,7 @@ CELESTIA_WALLET="Yegane"
 CELESTIA_CHAIN="mamaki"
 
 ----------------------------------------------------------
-echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $NGN/.bash_profile
+echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $YGN/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $NGN/.bash_profile
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $NGN/.bash_profile
 source $NGN/.bash_profile
