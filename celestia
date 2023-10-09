@@ -53,7 +53,7 @@ source $YGN/.bash_profile
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 
 -------------------------------------
-cp $NGN/networks/mamaki/genesis.json $NGN/.celestia-app/config/
+cp $YGN/networks/mamaki/genesis.json $NGN/.celestia-app/config/
 
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $NGN/.celestia-app/config/config.toml
