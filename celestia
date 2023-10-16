@@ -90,7 +90,7 @@ pruning_interval="10"
 
 sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
 s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_recent\"/;\
-s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $NGN/.celestia-app/config/app.toml
+s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $YGN/.celestia-app/config/app.toml
 
 --------------------------------------------
 
