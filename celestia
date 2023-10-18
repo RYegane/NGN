@@ -97,7 +97,7 @@ s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $YGN/.celest
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $YGN/.celestia-app/config/app.toml
 
 ---------------------------------------------------
-celestia-appd tendermint unsafe-reset-all --home $NGN/.celestia-app
+celestia-appd tendermint unsafe-reset-all --home $YGN/.celestia-app
 
 ---------------------------------------------------
 
