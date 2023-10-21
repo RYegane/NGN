@@ -136,7 +136,7 @@ sudo systemctl stop celestia-appd
 
 --------------------------------------------------------------
 
-cd $NGN
+cd $YGN
 rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
