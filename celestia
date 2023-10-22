@@ -150,7 +150,7 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 -----------------------------------
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
 echo $CELESTIA_ADDR 
-echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $NGN/.bash_prof
+echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $YGN/.bash_prof
 
 ------------------------------------------------
 CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a) 
