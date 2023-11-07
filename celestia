@@ -24,7 +24,7 @@ cd $YGN
 rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
-git checkout v1.5.3
+git checkout v1.5.8
 make install
 
 -------------------------------------------------
